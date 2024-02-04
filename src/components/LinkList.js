@@ -111,6 +111,13 @@ const LinkList = () => {
   const page = parseInt(pageIndexParams[pageIndexParams.length - 1]);
   const pageIndex = page ? (page - 1) * LINKS_PER_PAGE : 0;
 
+  const getQueryVariables = (isNewPage, page) => {
+    const skip = isNewPage ? (page - 1) * LINKS_PER_PAGE : 0;
+    const take = isNewPage ? LINKS_PER_PAGE : 100;
+    const orderBy = { createdAt: "desc" };
+    return { take, skip, orderBy };
+  };
+
   const { data, loading, error, subscribeToMore } = useQuery(FEED_QUERY, {
     variables: getQueryVariables(isNewPage, page),
   });
@@ -122,13 +129,6 @@ const LinkList = () => {
     const rankedLinks = data.feed.links.slice();
     rankedLinks.sort((l1, l2) => l2.votes.length - l1.votes.length);
     return rankedLinks;
-  };
-
-  const getQueryVariables = (isNewPage, page) => {
-    const skip = isNewPage ? (page - 1) * LINKS_PER_PAGE : 0;
-    const take = isNewPage ? LINKS_PER_PAGE : 100;
-    const orderBy = { createdAt: "desc" };
-    return { take, skip, orderBy };
   };
 
   subscribeToMore({

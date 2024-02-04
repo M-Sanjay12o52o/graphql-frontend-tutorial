@@ -2,7 +2,6 @@ import React from "react";
 import CreateLink from "./CreateLink";
 import Header from "./Header";
 import LinkList from "./LinkList";
-import { Route, Routes } from "react-router-dom";
 import Login from "./Login";
 import Search from "./Search";
 import { Navigate, Route, Routes } from "react-router-dom";
