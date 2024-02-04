@@ -42,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:50f3445ec32191124db5a090dea74b33269c0a4281a80c654788b9daadb8749ad91ac2350bff76d632d84d09ecccb6d4845e45af468fefd89ca49112d65d18bb#npm:18.2.0"],\
             ["react-router-dom", "virtual:50f3445ec32191124db5a090dea74b33269c0a4281a80c654788b9daadb8749ad91ac2350bff76d632d84d09ecccb6d4845e45af468fefd89ca49112d65d18bb#npm:6.22.0"],\
             ["react-scripts", "virtual:50f3445ec32191124db5a090dea74b33269c0a4281a80c654788b9daadb8749ad91ac2350bff76d632d84d09ecccb6d4845e45af468fefd89ca49112d65d18bb#npm:5.0.1"],\
+            ["subscriptions-transport-ws", "virtual:50f3445ec32191124db5a090dea74b33269c0a4281a80c654788b9daadb8749ad91ac2350bff76d632d84d09ecccb6d4845e45af468fefd89ca49112d65d18bb#npm:0.11.0"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\
@@ -141,7 +142,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:50f3445ec32191124db5a090dea74b33269c0a4281a80c654788b9daadb8749ad91ac2350bff76d632d84d09ecccb6d4845e45af468fefd89ca49112d65d18bb#npm:18.2.0"],\
             ["rehackt", "virtual:334a60fb5a4c60730e8fa235710b29ba385081fb6fddc65cbc29273581079bf1a669ff243d9b05f62bccac3d6e71f218a41ebbffb7b5ad83a4b6df2aaba88d55#npm:0.0.3"],\
             ["response-iterator", "npm:0.2.6"],\
-            ["subscriptions-transport-ws", null],\
+            ["subscriptions-transport-ws", "virtual:50f3445ec32191124db5a090dea74b33269c0a4281a80c654788b9daadb8749ad91ac2350bff76d632d84d09ecccb6d4845e45af468fefd89ca49112d65d18bb#npm:0.11.0"],\
             ["symbol-observable", "npm:4.0.0"],\
             ["ts-invariant", "npm:0.10.3"],\
             ["tslib", "npm:2.6.2"],\
@@ -6528,6 +6529,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["backo2", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/backo2-npm-1.0.2-e933aab18a-fda8d0a0f4.zip/node_modules/backo2/",\
+          "packageDependencies": [\
+            ["backo2", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["balanced-match", [\
         ["npm:1.0.2", {\
           "packageLocation": "./.yarn/cache/balanced-match-npm-1.0.2-a53c126459-9706c088a2.zip/node_modules/balanced-match/",\
@@ -9073,6 +9083,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["eventemitter3", [\
+        ["npm:3.1.2", {\
+          "packageLocation": "./.yarn/cache/eventemitter3-npm-3.1.2-a68b03e1ea-81e4e82b84.zip/node_modules/eventemitter3/",\
+          "packageDependencies": [\
+            ["eventemitter3", "npm:3.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:4.0.7", {\
           "packageLocation": "./.yarn/cache/eventemitter3-npm-4.0.7-7afcdd74ae-1875311c42.zip/node_modules/eventemitter3/",\
           "packageDependencies": [\
@@ -9902,6 +9919,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:50f3445ec32191124db5a090dea74b33269c0a4281a80c654788b9daadb8749ad91ac2350bff76d632d84d09ecccb6d4845e45af468fefd89ca49112d65d18bb#npm:18.2.0"],\
             ["react-router-dom", "virtual:50f3445ec32191124db5a090dea74b33269c0a4281a80c654788b9daadb8749ad91ac2350bff76d632d84d09ecccb6d4845e45af468fefd89ca49112d65d18bb#npm:6.22.0"],\
             ["react-scripts", "virtual:50f3445ec32191124db5a090dea74b33269c0a4281a80c654788b9daadb8749ad91ac2350bff76d632d84d09ecccb6d4845e45af468fefd89ca49112d65d18bb#npm:5.0.1"],\
+            ["subscriptions-transport-ws", "virtual:50f3445ec32191124db5a090dea74b33269c0a4281a80c654788b9daadb8749ad91ac2350bff76d632d84d09ecccb6d4845e45af468fefd89ca49112d65d18bb#npm:0.11.0"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\
@@ -10936,6 +10954,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["istanbul-reports", "npm:3.1.6"],\
             ["html-escaper", "npm:2.0.2"],\
             ["istanbul-lib-report", "npm:3.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["iterall", [\
+        ["npm:1.3.0", {\
+          "packageLocation": "./.yarn/cache/iterall-npm-1.3.0-a2cb04809f-c78b99678f.zip/node_modules/iterall/",\
+          "packageDependencies": [\
+            ["iterall", "npm:1.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16786,6 +16813,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["subscriptions-transport-ws", [\
+        ["npm:0.11.0", {\
+          "packageLocation": "./.yarn/cache/subscriptions-transport-ws-npm-0.11.0-6fa3639659-cc2e98d5c9.zip/node_modules/subscriptions-transport-ws/",\
+          "packageDependencies": [\
+            ["subscriptions-transport-ws", "npm:0.11.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:50f3445ec32191124db5a090dea74b33269c0a4281a80c654788b9daadb8749ad91ac2350bff76d632d84d09ecccb6d4845e45af468fefd89ca49112d65d18bb#npm:0.11.0", {\
+          "packageLocation": "./.yarn/__virtual__/subscriptions-transport-ws-virtual-45bce1e4b2/0/cache/subscriptions-transport-ws-npm-0.11.0-6fa3639659-cc2e98d5c9.zip/node_modules/subscriptions-transport-ws/",\
+          "packageDependencies": [\
+            ["subscriptions-transport-ws", "virtual:50f3445ec32191124db5a090dea74b33269c0a4281a80c654788b9daadb8749ad91ac2350bff76d632d84d09ecccb6d4845e45af468fefd89ca49112d65d18bb#npm:0.11.0"],\
+            ["@types/graphql", null],\
+            ["backo2", "npm:1.0.2"],\
+            ["eventemitter3", "npm:3.1.2"],\
+            ["graphql", "npm:16.8.1"],\
+            ["iterall", "npm:1.3.0"],\
+            ["symbol-observable", "npm:1.2.0"],\
+            ["ws", "virtual:f91bf4c0c4aadcdfd1654c7f1672aa158081b3d1f8f0a85d6474e5410f732c9c06f9cbc6f1645ed67983b8491d534f1568af9ff8d50552cb6ff14ce1242252b5#npm:7.5.9"]\
+          ],\
+          "packagePeers": [\
+            "@types/graphql",\
+            "graphql"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["sucrase", [\
         ["npm:3.35.0", {\
           "packageLocation": "./.yarn/cache/sucrase-npm-3.35.0-60ad876a0c-9fc5792a9a.zip/node_modules/sucrase/",\
@@ -16894,6 +16948,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["symbol-observable", [\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/symbol-observable-npm-1.2.0-9e812a0a39-48ffbc22e3.zip/node_modules/symbol-observable/",\
+          "packageDependencies": [\
+            ["symbol-observable", "npm:1.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:4.0.0", {\
           "packageLocation": "./.yarn/cache/symbol-observable-npm-4.0.0-5c36594410-212c7edce6.zip/node_modules/symbol-observable/",\
           "packageDependencies": [\
